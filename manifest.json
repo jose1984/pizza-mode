@@ -1,0 +1,19 @@
+{
+    "name": "Pizza-mode",
+    "version": "1.0",
+    "description": "Bored to see the classic spinner, replace it with a pizza",
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "permissions": ["webNavigation", "*://*/*"],
+    "icons": {
+        "16": "images/pizza16.png",
+        "32": "images/pizza32.png",
+        "48": "images/pizza48.png",
+        "128": "images/pizza128.png"
+    },
+    "web_accessible_resources": [
+        "images/*.png"
+    ],
+    "manifest_version": 2
+}
